@@ -1,0 +1,14 @@
+[project]
+name = "ai-testgen"
+version = "0.1.0"
+description = "AI-assisted test case generation with validated, structured output (Azure AI Foundry)"
+requires-python = ">=3.11"
+authors = [{ name = "Ravi Sharma" }]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
